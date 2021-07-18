@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MoveAnimation</string>
+    <string name="label_tong_sam_cong">Jl. kosong adalah isi, isi adalah kosong</string>
+    <string name="label_pt_sejati_sehati">PT. Sejati Sehati</string>
+    <string name="label_line">======================================</string>
+    <string name="label_line_single">--------------------------------------------------------------------------</string>
+    <string name="label_bon">Bon</string>
+    <string name="label_kb01_010_12345q7w8">KBBI-010-12345Q7W8</string>
+    <string name="label_kasir_si_lontong">Kasir : Si Lotong</string>
+    <string name="product_lontong_123ml">LONTONG 123ML</string>
+    <string name="product_lontong_KW_123ml">LONTONG KW 123ML</string>
+    <string name="price3_500">3,500</string>
+    <string name="item_1">1</string>
+    <string name="label_total_item">Total Item</string>
+    <string name="label_3">3</string>
+    <string name="total_10_500">10,500</string>
+    <string name="label_bantuan_sosial">Bantuan Sosial</string>
+    <string name="_500">500</string>
+    <string name="total_belanja">Total Belanja</string>
+    <string name="_11_000">11,000</string>
+    <string name="tunai">Tunai</string>
+    <string name="kembalian">Kembalian</string>
+    <string name="_100_000">100,000</string>
+    <string name="tgl_99_99_999_99_99_99">Tgl. 99-99-999 99:99:99</string>
+    <string name="view_group">View Group</string>
+    <string name="view">View</string>
+    <string name="fragment">Fragment</string>
+    <string name="suzy">suzy</string>
+</resources>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_struk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:background="@color/grey_cd"
+        android:clickable="true"
+        android:paddingTop="16sp"
+        android:paddingBottom="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txv1"
+            style="@style/FontBlack18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/label_pt_sejati_sehati"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txv2"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_tong_sam_cong"
+            app:layout_constraintEnd_toEndOf="@id/txv1"
+            app:layout_constraintStart_toStartOf="@id/txv1"
+            app:layout_constraintTop_toBottomOf="@id/txv1" />
+
+        <TextView
+            android:id="@+id/line"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_line"
+            app:layout_constraintEnd_toEndOf="@id/txv2"
+            app:layout_constraintStart_toStartOf="@id/txv2"
+            app:layout_constraintTop_toBottomOf="@id/txv2" />
+
+        <TextView
+            android:id="@+id/txv3"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_bon"
+            app:layout_constraintStart_toStartOf="@id/line"
+            app:layout_constraintTop_toBottomOf="@id/line" />
+
+        <TextView
+            android:id="@+id/txv4"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:text="@string/label_kb01_010_12345q7w8"
+            app:layout_constraintStart_toEndOf="@id/txv3"
+            app:layout_constraintTop_toBottomOf="@id/line" />
+
+        <TextView
+            android:id="@+id/txv5"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:text="@string/label_kasir_si_lontong"
+            app:layout_constraintEnd_toEndOf="@id/line"
+            app:layout_constraintTop_toBottomOf="@id/line" />
+
+        <TextView
+            android:id="@+id/line2"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_line"
+            app:layout_constraintEnd_toEndOf="@id/txv5"
+            app:layout_constraintStart_toStartOf="@id/txv3"
+            app:layout_constraintTop_toBottomOf="@id/txv3" />
+
+        <TextView
+            android:id="@+id/txv6"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/product_lontong_123ml"
+            app:layout_constraintStart_toStartOf="@id/line2"
+            app:layout_constraintTop_toBottomOf="@+id/line2" />
+
+        <TextView
+            android:id="@+id/txv7"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="@string/item_1"
+            app:layout_constraintEnd_toStartOf="@+id/txv8"
+            app:layout_constraintTop_toBottomOf="@id/line2" />
+
+        <TextView
+            android:id="@+id/txv8"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="@string/price3_500"
+            app:layout_constraintEnd_toStartOf="@+id/txv9"
+            app:layout_constraintTop_toBottomOf="@id/line2" />
+
+        <TextView
+            android:id="@+id/txv9"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price3_500"
+            app:layout_constraintEnd_toEndOf="@id/line2"
+            app:layout_constraintTop_toBottomOf="@id/line2" />
+
+        <TextView
+            android:id="@+id/txv10"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/product_lontong_KW_123ml"
+            app:layout_constraintStart_toStartOf="@id/txv6"
+            app:layout_constraintTop_toBottomOf="@+id/txv6" />
+
+        <TextView
+            android:id="@+id/txv11"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="@string/item_1"
+            app:layout_constraintEnd_toStartOf="@+id/txv8"
+            app:layout_constraintTop_toBottomOf="@id/txv8" />
+
+        <TextView
+            android:id="@+id/txv12"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="@string/price3_500"
+            app:layout_constraintEnd_toStartOf="@+id/txv9"
+            app:layout_constraintTop_toBottomOf="@id/txv9" />
+
+        <TextView
+            android:id="@+id/txv13"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price3_500"
+            app:layout_constraintEnd_toEndOf="@id/line2"
+            app:layout_constraintTop_toBottomOf="@id/txv8" />
+
+        <TextView
+            android:id="@+id/txv14"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/product_lontong_KW_123ml"
+            app:layout_constraintStart_toStartOf="@id/txv10"
+            app:layout_constraintTop_toBottomOf="@+id/txv10" />
+
+        <TextView
+            android:id="@+id/txv15"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="@string/item_1"
+            app:layout_constraintEnd_toStartOf="@+id/txv8"
+            app:layout_constraintTop_toBottomOf="@id/txv11" />
+
+        <TextView
+            android:id="@+id/txv16"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="@string/price3_500"
+            app:layout_constraintEnd_toStartOf="@+id/txv9"
+            app:layout_constraintTop_toBottomOf="@id/txv12" />
+
+        <TextView
+            android:id="@+id/txv17"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price3_500"
+            app:layout_constraintEnd_toEndOf="@id/line2"
+            app:layout_constraintTop_toBottomOf="@id/txv13" />
+
+        <TextView
+            android:id="@+id/line3"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_line_single"
+            app:layout_constraintEnd_toEndOf="@id/txv13"
+            app:layout_constraintStart_toStartOf="@id/txv10"
+            app:layout_constraintTop_toBottomOf="@id/txv14" />
+
+        <TextView
+            android:id="@+id/txv18"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_total_item"
+            app:layout_constraintStart_toStartOf="@id/line3"
+            app:layout_constraintTop_toBottomOf="@id/line3" />
+
+        <TextView
+            android:id="@+id/txv19"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_3"
+            app:layout_constraintEnd_toEndOf="@id/txv15"
+            app:layout_constraintStart_toStartOf="@id/txv15"
+            app:layout_constraintTop_toBottomOf="@+id/line3" />
+
+        <TextView
+            android:id="@+id/txv20"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_10_500"
+            app:layout_constraintEnd_toEndOf="@id/line3"
+            app:layout_constraintTop_toBottomOf="@+id/line3" />
+
+        <TextView
+            android:id="@+id/txv21"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_bantuan_sosial"
+            app:layout_constraintStart_toStartOf="@id/txv18"
+            app:layout_constraintTop_toBottomOf="@+id/txv18" />
+
+        <TextView
+            android:id="@+id/txv22"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_500"
+            app:layout_constraintEnd_toEndOf="@+id/txv20"
+            app:layout_constraintTop_toBottomOf="@+id/txv20" />
+
+        <TextView
+            android:id="@+id/txv23"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_belanja"
+            app:layout_constraintStart_toStartOf="@id/txv21"
+            app:layout_constraintTop_toBottomOf="@+id/txv21" />
+
+        <TextView
+            android:id="@+id/txv24"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_11_000"
+            app:layout_constraintEnd_toEndOf="@+id/txv22"
+            app:layout_constraintTop_toBottomOf="@id/txv22" />
+
+        <TextView
+            android:id="@+id/txv25"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tunai"
+            app:layout_constraintStart_toStartOf="@id/txv23"
+            app:layout_constraintTop_toBottomOf="@+id/txv23" />
+
+        <TextView
+            android:id="@+id/txv26"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="111,000"
+            app:layout_constraintEnd_toEndOf="@id/txv24"
+            app:layout_constraintTop_toBottomOf="@+id/txv24" />
+
+        <TextView
+            android:id="@+id/txv27"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kembalian"
+            app:layout_constraintStart_toStartOf="@id/txv25"
+            app:layout_constraintTop_toBottomOf="@+id/txv25" />
+
+        <TextView
+            android:id="@+id/txv28"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_100_000"
+            app:layout_constraintEnd_toEndOf="@+id/txv26"
+            app:layout_constraintTop_toBottomOf="@+id/txv26" />
+
+        <TextView
+            android:id="@+id/line4"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_line"
+            app:layout_constraintEnd_toEndOf="@id/txv28"
+            app:layout_constraintStart_toStartOf="@id/txv27"
+            app:layout_constraintTop_toBottomOf="@id/txv27" />
+
+        <TextView
+            android:id="@+id/txv29"
+            style="@style/FontBlack16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tgl_99_99_999_99_99_99"
+            app:layout_constraintStart_toStartOf="@id/line4"
+            app:layout_constraintTop_toBottomOf="@+id/line4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
