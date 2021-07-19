@@ -9,12 +9,11 @@
     <ImageView
         android:id="@+id/img"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="500dp"
         android:layout_margin="24dp"
         android:scaleType="centerCrop"
         android:src="@drawable/img_bae_suzy"
         android:contentDescription="@string/suzy"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
